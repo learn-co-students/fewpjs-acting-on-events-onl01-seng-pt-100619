@@ -31,7 +31,7 @@ document.addEventListener("keydown", function(e) {
       dodger.style.left = `${left + 1}px`;
     }
   }
-
+// use style left parameter to move element, convert values to int and back to string, use event listener, and set the move right or move left as callback
   document.addEventListener("keydown", function(e) {
     if (e.key === "ArrowLeft") {
       moveDodgerLeft();
